@@ -6,8 +6,8 @@ This is a Dockerfile to set up "ServiceNow MID Server" - (http://wiki.servicenow
 
 ## Setup steps
 
-1. Install docker. Instructions can be found here: [a link](https://docs.docker.com/docker-for-mac/install/#what-to-know-before-you-install)
-2. Install git. Instructions can be found here: [a link](https://gist.github.com/derhuerst/1b15ff4652a867391f03#file-mac-md) or run: xcode-select --install
+1. Install docker. Instructions can be found [here](https://docs.docker.com/docker-for-mac/install/#what-to-know-before-you-install)
+2. Install git. Instructions can be found [here](https://gist.github.com/derhuerst/1b15ff4652a867391f03#file-mac-md) or run: xcode-select --install
 3. Open Terminal or iTerm
 4. Change your working directory to somewhere you want to work from and store project data (e.g. ~/Documents/dev/). 
 5. Run: git clone https://github.com/mjnethaway/sn-mid-server.git
@@ -18,7 +18,7 @@ This is a Dockerfile to set up "ServiceNow MID Server" - (http://wiki.servicenow
     3. Complete the fields in the form: User ID, First Name, Last Name, Password
     4. Assign mid_server role
     
-    For more information, see here: [a link](https://docs.servicenow.com/bundle/istanbul-servicenow-platform/page/product/mid-server/task/t_SetupMIDServerRole.html)
+    For more information, see [here](https://docs.servicenow.com/bundle/istanbul-servicenow-platform/page/product/mid-server/task/t_SetupMIDServerRole.html)
 8. Run: ./mid-start.sh -i _instance name_ -u _Mid user name_ -p _Mid user password_
 9. Validate MID server in your SN instance
     1. From the instance, navigate to MID Server > Servers.
