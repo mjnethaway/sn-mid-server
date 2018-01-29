@@ -1,4 +1,4 @@
-# docker ServiceNow MID Server
+# Docker ServiceNow MID Server
 
 This is a Dockerfile to set up "ServiceNow MID Server" - (http://wiki.servicenow.com/index.php?title=MID_Server_Installation)
 
