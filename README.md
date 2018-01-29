@@ -19,7 +19,7 @@ This is a Dockerfile to set up "ServiceNow MID Server" - (http://wiki.servicenow
     4. Assign mid_server role
     
     For more information, see [here](https://docs.servicenow.com/bundle/istanbul-servicenow-platform/page/product/mid-server/task/t_SetupMIDServerRole.html)
-8. Run: ./mid-start.sh -i _instance name_ -u _Mid user name_ -p _Mid user password_
+8. Run: ./mid-start.sh -i __instance name__ -u __Mid user name__ -p __Mid user password__
 9. Validate MID server in your SN instance
     1. From the instance, navigate to MID Server > Servers.
     2. Select your mid server (docker-mid)
